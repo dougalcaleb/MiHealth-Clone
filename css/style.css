@@ -64,21 +64,20 @@ nav {
     margin: auto;
     top: 60px;
     height: 600px;
+    display: flex;
+    justify-content: space-between;
+    /* width: 1120px; */
 }
 
 .blurb {
-    height: 90%;
-    margin: auto;
-    top: 0;
-    bottom: 0;
-    width: 25%;
+    width: 400px;
     /* background: orange; */
-    position: absolute;
+    position: relative;
 }
 
 .blurb h1 {
     font-family: "Montserrat", sans-serif;
-    font-size: 70px;
+    font-size: 4vw;
     line-height: 60px;
     margin: 0;
 }
@@ -100,7 +99,7 @@ nav {
     /* font-weight: 900; */
 }
 
-.imgs {
+.cards {
     /* background: green; */
     position: absolute;
     height: 90%;
